@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Ad Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Weather Ad Generator</h1>
+
+        <p>
+            Enter a city and generate advertising copy based on the current weather.
+        </p>
+
+        <input id="cityInput" type="text" placeholder="Enter a city">
+        <button id="generateButton">Generate Ad</button>
+
+        <section id="ad">
+            <p id="weather"></p>
+            <h2 id="headline">Your advert will appear here</h2>
+            <button id="cta">Shop now</button>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

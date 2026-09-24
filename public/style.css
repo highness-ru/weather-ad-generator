@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    padding: 40px;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+}
+
+input,
+button {
+    padding: 12px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#ad {
+    margin-top: 30px;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+}
+
+#cta {
+    padding: 12px 20px;
+    cursor: pointer;
+}
